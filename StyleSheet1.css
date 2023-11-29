@@ -1,0 +1,50 @@
+﻿body {
+    background-color: moccasin;
+   
+}
+table, th, td {
+    border: 1px solid black;
+}
+.c {
+    list-style: none;
+    padding: 0;
+}
+
+    .c li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .c li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: indianred;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            .c li a:hover {
+                background-color: darkorange;
+            }
+
+            .c li a:active {
+                background-color: aliceblue;
+            }
+#h{
+    text-align: center;
+    color: darkgreen;
+    font-family: verdana;
+    color:brown;
+}
+#p {
+    border-style: double solid;
+    border-color: green black black green;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 300px;
+    padding: 10px 20px;
+}
